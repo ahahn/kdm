@@ -4,7 +4,7 @@ from signalcodec import SignalCodec
 from numpy import append, array
 import struct
 
-input = "CQ DE KR1LLR CN85QL"
+input = "KR1LLR CN85 -100"
 print "message length:", len(input)
 
 stringcodec = StringCodec()

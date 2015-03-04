@@ -4,7 +4,7 @@ import numpy as np
 import copy
 
 class SignalCodec:
-    def __init__(self, framelength=0.25, baseamp=12750, samplerate=44100):
+    def __init__(self, framelength=0.5, baseamp=12750, samplerate=48000):
         self.framelength = framelength
         self.baseamp = baseamp
         self.samplerate = samplerate

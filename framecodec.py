@@ -1,7 +1,7 @@
 import bitarray, util
 
 class FrameCodec:
-    def __init__(self, carrier=1000, channelcount=4, tonespacing=4, tonecount=4):
+    def __init__(self, carrier=500, channelcount=4, tonespacing=2, tonecount=4):
         self.carrier = carrier
         self.channelcount = channelcount
         self.tonespacing  = tonespacing
